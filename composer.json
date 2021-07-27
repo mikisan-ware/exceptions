@@ -1,0 +1,30 @@
+{
+    "name": "mikisan/exceptions",
+    "description": "General purpose exceptions library for PHP.",
+    "keywords": ["class", "exception"],
+    "type": "library",
+    "license": "proprietary",
+    "homepage": "https://striking-forces.jp/",
+    "authors": [
+        {
+            "name": "Katsuhiko Miki",
+            "email": "mikisan-ware@outlook.jp"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mikisan\\core\\exception\\": "src/"
+        },
+        "files": [
+            "./src/ClassNotFoundException.php",
+            "./src/DirectoryNotFoundException.php",
+            "./src/FileNotFoundException.php",
+            "./src/FileOpenFailedException.php",
+            "./src/InvalidParameterAccessException.php",
+            "./src/NotInitializedException.php"
+        ]
+    }
+}

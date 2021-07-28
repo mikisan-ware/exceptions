@@ -24,7 +24,8 @@
             "./src/FileNotFoundException.php",
             "./src/FileOpenFailedException.php",
             "./src/InvalidParameterAccessException.php",
-            "./src/NotInitializedException.php"
+            "./src/NotInitializedException.php",
+            "./src/UMEException.php"
         ]
     }
 }

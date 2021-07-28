@@ -14,7 +14,7 @@ namespace mikisan\core\exception;
 
 class UMEException extends \Exception
 {
-    private $message = "";
+    protected $message = "";
             
     /**
      * 基底クラスの例外を呼び出す
